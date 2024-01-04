@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@strapi/plugin-cloud": "4.15.5",
+    "@strapi/plugin-content-source-map": "^0.2.0",
     "@strapi/plugin-graphql": "^4.16.2",
     "@strapi/plugin-i18n": "4.15.5",
     "@strapi/plugin-users-permissions": "4.15.5",

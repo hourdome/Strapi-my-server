@@ -1733,6 +1733,15 @@
     lodash "4.17.21"
     qs "6.11.1"
 
+"@strapi/plugin-content-source-map@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/@strapi/plugin-content-source-map/-/plugin-content-source-map-0.2.0.tgz"
+  integrity sha512-eLtMwe0XUsoROE1s6oVJ5w86Il8rYprfsEdPRccnYisLy2wv0BLOqz79+WqRIWHgkqzWUoLUMa6DlVksLdXETA==
+  dependencies:
+    "@strapi/utils" "^4.12.0"
+    "@vercel/stega" "^0.1.0"
+    zod "^3.21.4"
+
 "@strapi/plugin-content-type-builder@4.15.5":
   version "4.15.5"
   resolved "https://registry.npmjs.org/@strapi/plugin-content-type-builder/-/plugin-content-type-builder-4.15.5.tgz"
@@ -1893,7 +1902,7 @@
     "@strapi/utils" "4.15.5"
     fs-extra "10.0.0"
 
-"@strapi/strapi@^4.0.0", "@strapi/strapi@^4.3.4", "@strapi/strapi@^4.4.0", "@strapi/strapi@4.15.5":
+"@strapi/strapi@^4.0.0", "@strapi/strapi@^4.12.0", "@strapi/strapi@^4.3.4", "@strapi/strapi@^4.4.0", "@strapi/strapi@4.15.5":
   version "4.15.5"
   resolved "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.15.5.tgz"
   integrity sha512-XdGfnXXoeq18mjO2OXJi/tySwiKzfX1C5u/y30X3q21lVD5U+cAWS+WhZpUROIUOX0+nT6sWP6jjhRbRkac1oA==
@@ -2013,7 +2022,7 @@
     aria-hidden "^1.2.3"
     react-remove-scroll "^2.5.7"
 
-"@strapi/utils@4.15.5":
+"@strapi/utils@^4.12.0", "@strapi/utils@4.15.5":
   version "4.15.5"
   resolved "https://registry.npmjs.org/@strapi/utils/-/utils-4.15.5.tgz"
   integrity sha512-1ARIaMh7i/lWTkPVnDX/EuWCJrIq9IrlNwToDG4tnej5ZzqhGQVD4G4n+I4nKLDjXi6qhR+7AGpcgtchBoWtRw==
@@ -2489,6 +2498,11 @@
     "@codemirror/theme-one-dark" "^6.0.0"
     "@uiw/codemirror-extensions-basic-setup" "4.21.21"
     codemirror "^6.0.0"
+
+"@vercel/stega@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/@vercel/stega/-/stega-0.1.0.tgz"
+  integrity sha512-5b0PkOJsFBX5alChuIO3qpkt5vIZBevzLPhUQ1UP8UzVjL3F1VllnZxp/thfD8R5ol7D7WHkgZHIjdUBX4tDpQ==
 
 "@vitejs/plugin-react@4.1.0":
   version "4.1.0"
@@ -9958,3 +9972,8 @@ yup@0.32.9:
     nanoclone "^0.2.1"
     property-expr "^2.0.4"
     toposort "^2.0.2"
+
+zod@^3.21.4:
+  version "3.22.4"
+  resolved "https://registry.npmjs.org/zod/-/zod-3.22.4.tgz"
+  integrity sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==
