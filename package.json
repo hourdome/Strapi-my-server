@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@strapi/plugin-cloud": "4.15.5",
-    "@strapi/plugin-content-source-map": "^0.2.0",
     "@strapi/plugin-graphql": "^4.16.2",
     "@strapi/plugin-i18n": "4.15.5",
     "@strapi/plugin-users-permissions": "4.15.5",
@@ -31,7 +30,8 @@
     "uuid": "300f084a-40da-4101-9785-6fba4f1312f4"
   },
   "engines": {
-    "node": ">=18.0.0 <=20.x.x"
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
